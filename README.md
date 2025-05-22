@@ -73,6 +73,8 @@ docker-compose up --build
 
 The application will be available at `http://localhost:8080`
 
+The Swagger will be available at `http://localhost:8080/swagger`
+
 ## Database Schema
 
 ### Entities and Relationships
