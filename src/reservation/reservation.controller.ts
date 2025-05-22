@@ -4,7 +4,7 @@ import {
   Post,
   Body,
   Param,
-  Delete,
+  Put,
   Query,
   HttpStatus,
   HttpCode,
@@ -56,7 +56,7 @@ export class ReservationController {
     return this.reservationService.findOne(id);
   }
 
-  @Delete(':id')
+  @Put(':id')
   @HttpCode(HttpStatus.NO_CONTENT)
   @ApiOperation({ summary: 'Cancel a reservation' })
   @ApiResponse({

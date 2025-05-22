@@ -155,6 +155,6 @@ The Swagger will be available at `http://localhost:8080/swagger`
 - `GET /reservations` - Get all reservations
 - `GET /reservations/user/:userId` - Get reservations by user
 - `GET /reservations/:id` - Get reservation details
-- `DELETE /reservations/:id` - Cancel a reservation
+- `PUT /reservations/:id` - Cancel a reservation
 
 ## Development
